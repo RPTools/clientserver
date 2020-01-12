@@ -101,8 +101,9 @@ public class ServerConnection extends AbstractConnection implements MessageHandl
 	}
 
 	/**
-	 * Server subclasses may override this method to perform serial handshaking before the connection is accepted into
-	 * its pool. By default, this just returns true.
+	 * Server subclasses may override this method to perform serial handshaking
+	 * before the connection is accepted into its pool. By default, this just
+	 * returns true.
 	 * 
 	 * @param conn
 	 * @return true if the connection should be added to the pool
