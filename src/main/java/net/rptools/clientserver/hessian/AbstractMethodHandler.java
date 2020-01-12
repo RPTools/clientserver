@@ -24,13 +24,16 @@ import com.caucho.hessian.io.HessianInput;
 /**
  * @author drice
  *
- * TODO To change the template for this generated type comment go to
- * Window - Preferences - Java - Code Style - Code Templates
+ *         TODO To change the template for this generated type comment go to
+ *         Window - Preferences - Java - Code Style - Code Templates
  */
 public abstract class AbstractMethodHandler implements MethodHandler {
 
-	/* (non-Javadoc)
-	 * @see clientserver.simple.MessageHandler#handleMessage(java.lang.String, byte[])
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see clientserver.simple.MessageHandler#handleMessage(java.lang.String,
+	 * byte[])
 	 */
 	public void handleMessage(String id, byte[] message) {
 		try {

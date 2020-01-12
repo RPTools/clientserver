@@ -18,8 +18,8 @@ import net.rptools.clientserver.simple.MessageHandler;
 /**
  * @author drice
  *
- * TODO To change the template for this generated type comment go to
- * Window - Preferences - Java - Code Style - Code Templates
+ *         TODO To change the template for this generated type comment go to
+ *         Window - Preferences - Java - Code Style - Code Templates
  */
 public interface MethodHandler extends MessageHandler {
 
