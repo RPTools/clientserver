@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: develop
+  ignore:
+  - dependency-name: org.apache.maven.wagon:wagon-ssh
+    versions:
+    - 3.4.2
+  - dependency-name: junit:junit
+    versions:
+    - 4.13.1
